@@ -5,4 +5,4 @@ FROM docker.elastic.co/logstash/logstash-x-pack:6.2.1
 # Example: RUN logstash-plugin install logstash-filter-json
 RUN logstash-plugin update logstash-input-beats
 RUN logstash-plugin update logstash-input-jdbc
-RUN logstash-plugin update logstash-output-elasticsearch
+# RUN logstash-plugin update logstash-output-elasticsearch
