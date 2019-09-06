@@ -1,5 +1,5 @@
 # https://github.com/elastic/logstash-docker
-FROM docker.elastic.co/logstash/logstash:7.0.0
+FROM docker.elastic.co/logstash/logstash:7.0.0-beta1
 
 
 RUN logstash-plugin install logstash-filter-prune
