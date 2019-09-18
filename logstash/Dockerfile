@@ -6,6 +6,7 @@ RUN logstash-plugin install logstash-filter-prune
 RUN logstash-plugin install logstash-input-lumberjack
 RUN logstash-plugin install logstash-filter-range
 RUN logstash-plugin install logstash-codec-avro
+RUN logstash-plugin install logstash-filter-json_encode
 # Add your logstash plugins setup here
 # Example: RUN logstash-plugin install logstash-filter-json
 # RUN logstash-plugin update logstash-input-beats
